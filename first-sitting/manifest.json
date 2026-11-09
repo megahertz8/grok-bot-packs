@@ -7,29 +7,29 @@
       "name": "getting-started",
       "file": "skills/getting-started.md",
       "description": "Use on the first conversation after a customer imports this bot, to run the v7.7 first-meeting flow.",
-      "sha256": "31d4647b38779b8b33fc50060cfc49123fd9df736c35d906577b38948c8d6ddd",
-      "chars": 654
+      "sha256": "96df7fc3ff709a4bc948598331422915feb8a6065f5258806ae480baa2bf988f",
+      "chars": 656
     },
     {
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
       "description": "Use in every first meeting with a new customer: the full v7.7 flow, handoff, weekly feedback and never-list.",
-      "sha256": "51e5a2e5615fd9be4f4693f08ada3f41e229bcee85d4ca55b1a10deb0626562b",
-      "chars": 19788
+      "sha256": "44b5b6ad0e09368c35f496574fe5e72e63a578c91cfc3b5a068039551a7e88db",
+      "chars": 20164
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
-      "description": "כללי-אמון v1.9: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
-      "sha256": "406d8ed044304aaec3309d8e780af88a88fee53a2b94ae0dd794fe21e0a4805e",
-      "chars": 6597
+      "description": "כללי-אמון v1.10: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
+      "sha256": "9ffae526a14d08376f14cee56f507fbf71665651ce31375a3f7e2b6184125289",
+      "chars": 7161
     },
     {
       "name": "company-kit",
       "file": "skills/company-kit.md",
-      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template v1.3 and how bots use it.",
-      "sha256": "364cfbb45eaaa3f269085a25fd544f8e190c02ad5527fa213d49bfb9b5c12e70",
-      "chars": 14912
+      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template v1.4 and how bots use it.",
+      "sha256": "8ab366a62b547e07353233f4eb1cae4346d6b03b4147a0b3f41817319c1837ed",
+      "chars": 15163
     }
   ]
 }
