@@ -21,8 +21,8 @@
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
       "description": "כללי-אמון v1.8: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
-      "sha256": "059aefd41a431f7e63ca23daa63127a6fd276e8c5308522e4cfe22d6657d65e7",
-      "chars": 4733
+      "sha256": "6d5b4433a50671cc10a72f5ab8302498c8a6a2c9fecb8386db43206c7c01d074",
+      "chars": 5074
     },
     {
       "name": "company-kit",
