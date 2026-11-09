@@ -7,28 +7,28 @@
       "name": "getting-started",
       "file": "skills/getting-started.md",
       "description": "Use on the first conversation after a customer imports this bot, to run the v7.7 first-meeting flow.",
-      "sha256": "44859d644007ca0cd8d3e0df51ac571b5ea0ee964ed759d2fcdf34227e510775",
+      "sha256": "2543c2517d6ea10990490ba991dd91799018cfeeb6687e76ff8356c75fa48858",
       "chars": 710
     },
     {
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
       "description": "Use in every first meeting with a new customer: the full v7.7 flow, handoff, weekly feedback and never-list.",
-      "sha256": "86b5060c2ff68a8355640dcee682d0d6e592cdfd1602d56a4a6a41b65d405742",
+      "sha256": "13c0bc60249b90b30e24bbab44f6ac91ce484dacd51d4da259b14bb589c5dc05",
       "chars": 17572
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
-      "description": "כללי-אמון v1.7: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
-      "sha256": "b5cb76a6e82969e187294b43d5c364f3a5490caab6ea47732b0d207adac3d8aa",
-      "chars": 4310
+      "description": "כללי-אמון v1.8: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
+      "sha256": "059aefd41a431f7e63ca23daa63127a6fd276e8c5308522e4cfe22d6657d65e7",
+      "chars": 4733
     },
     {
       "name": "company-kit",
       "file": "skills/company-kit.md",
       "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template v1.2 and how bots use it.",
-      "sha256": "5b5abaf6b655a6c699cbe9078ea747945418c8a6af7eca3120bbd3fc143e600d",
+      "sha256": "4f74860b53076b28bd80bddfb4a33c5a52ea68daba5390e99733915ad5c659a5",
       "chars": 13227
     }
   ]
