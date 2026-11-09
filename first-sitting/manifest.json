@@ -1,0 +1,35 @@
+{
+  "name": "First Sitting Bot",
+  "description": "First meeting flow that builds one drafting bot with the customer on their own account.",
+  "gettingStarted": "getting-started",
+  "files": [
+    {
+      "name": "getting-started",
+      "file": "skills/getting-started.md",
+      "description": "Use on the first conversation after a customer imports this bot, to run the v7.7 first-meeting flow.",
+      "sha256": "44859d644007ca0cd8d3e0df51ac571b5ea0ee964ed759d2fcdf34227e510775",
+      "chars": 710
+    },
+    {
+      "name": "first-sitting-v7",
+      "file": "skills/first-sitting-v7.md",
+      "description": "Use in every first meeting with a new customer: the full v7.7 flow, handoff, weekly feedback and never-list.",
+      "sha256": "86b5060c2ff68a8355640dcee682d0d6e592cdfd1602d56a4a6a41b65d405742",
+      "chars": 17572
+    },
+    {
+      "name": "trust-rules-kllei-emun",
+      "file": "skills/trust-rules-kllei-emun.md",
+      "description": "כללי-אמון v1.7: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
+      "sha256": "b5cb76a6e82969e187294b43d5c364f3a5490caab6ea47732b0d207adac3d8aa",
+      "chars": 4310
+    },
+    {
+      "name": "company-kit",
+      "file": "skills/company-kit.md",
+      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template v1.2 and how bots use it.",
+      "sha256": "5b5abaf6b655a6c699cbe9078ea747945418c8a6af7eca3120bbd3fc143e600d",
+      "chars": 13227
+    }
+  ]
+}
