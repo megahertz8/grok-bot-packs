@@ -7,21 +7,21 @@
       "name": "getting-started",
       "file": "skills/getting-started.md",
       "description": "Use on the first conversation after a customer imports this bot, to run the v7.7 first-meeting flow.",
-      "sha256": "96df7fc3ff709a4bc948598331422915feb8a6065f5258806ae480baa2bf988f",
-      "chars": 656
+      "sha256": "90a9e612b52a957825f0a43b2f99343cee98bbf8dd0c4b91a91ec87faa4fbb55",
+      "chars": 704
     },
     {
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
       "description": "Use in every first meeting with a new customer: the full v7.7 flow, handoff, weekly feedback and never-list.",
-      "sha256": "44b5b6ad0e09368c35f496574fe5e72e63a578c91cfc3b5a068039551a7e88db",
-      "chars": 20164
+      "sha256": "76b8a350f39153c295c042cf3e7aaad0fb4b7d94f516b865338aaa5fc43d2758",
+      "chars": 23874
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
       "description": "כללי-אמון v1.10: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
-      "sha256": "9ffae526a14d08376f14cee56f507fbf71665651ce31375a3f7e2b6184125289",
+      "sha256": "9cd7f515e18632bff244114baad1ad33af12d33eac986031772c85855eefadd1",
       "chars": 7161
     },
     {
