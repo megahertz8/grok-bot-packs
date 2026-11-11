@@ -12,7 +12,7 @@ Each pack has a `manifest.json` that lists its files for people, plus one markdo
 
 Import and bootstrap flows must use the tagged raw URLs, not branch HEAD:
 
-`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.11/...`
+`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.11b/...`
 
 Tags v2026.11.09b and v2026.11.09c: do not use.
 
