@@ -6,30 +6,30 @@
     {
       "name": "getting-started",
       "file": "skills/getting-started.md",
-      "description": "Use on the first conversation after a customer imports this bot, to run the v7.7 first-meeting flow.",
-      "sha256": "90a9e612b52a957825f0a43b2f99343cee98bbf8dd0c4b91a91ec87faa4fbb55",
-      "chars": 704
+      "description": "Use on the first conversation after a customer imports this bot, to run the first-meeting flow (60-minute core, then extras).",
+      "sha256": "3413d8dfa361280519386fbf7ce53afcec0739c00850a8fe6857281bf6a9fef1",
+      "chars": 862
     },
     {
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
-      "description": "Use in every first meeting with a new customer: the full v7.7 flow, handoff, weekly feedback and never-list.",
-      "sha256": "76b8a350f39153c295c042cf3e7aaad0fb4b7d94f516b865338aaa5fc43d2758",
-      "chars": 23874
+      "description": "Use in every first meeting with a new customer: the 60-minute core, extras, handoff, weekly feedback and never-list.",
+      "sha256": "26e162f82090d169e408e53b8323ff71cf069a3a29216dd5c841386bfa54eb96",
+      "chars": 22763
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
-      "description": "כללי-אמון v1.10: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, liftable rules, how lifts work).",
-      "sha256": "9cd7f515e18632bff244114baad1ad33af12d33eac986031772c85855eefadd1",
-      "chars": 7161
+      "description": "כללי-אמון, גרסה 20: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, permits, how permits work).",
+      "sha256": "ef3980ef7aa8126d919bce913c2c5a94d80f46318bd348c4589097521da3c607",
+      "chars": 8421
     },
     {
       "name": "company-kit",
       "file": "skills/company-kit.md",
-      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template v1.4 and how bots use it.",
-      "sha256": "8ab366a62b547e07353233f4eb1cae4346d6b03b4147a0b3f41817319c1837ed",
-      "chars": 15163
+      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template at bundle 20 (גרסה 20) and how bots use it.",
+      "sha256": "026adb812af113c6d1bf8b76b538d6f115bb181a37215f7e2f70cb1ee3e1b2cc",
+      "chars": 16174
     }
   ]
 }
