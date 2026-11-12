@@ -5,6 +5,7 @@ Public skill packs for Grok Bot templates that bootstrap themselves on first cha
 ## Packs
 
 - `first-sitting/`: First Sitting Bot skills
+- `first-sitting/docs/prereq-checklist-he.md`: the Hebrew pre-meeting checklist the instructor sends customers before the first meeting (not a skill, not installed by the bootstrap)
 
 Each pack has a `manifest.json` that lists its files for people, plus one markdown file per skill under `skills/`.
 
@@ -12,7 +13,7 @@ Each pack has a `manifest.json` that lists its files for people, plus one markdo
 
 Import and bootstrap flows must use the tagged raw URLs, not branch HEAD:
 
-`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.11b/...`
+`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.12/...`
 
 Tags v2026.11.09b and v2026.11.09c: do not use.
 
