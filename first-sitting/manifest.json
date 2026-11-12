@@ -7,28 +7,28 @@
       "name": "getting-started",
       "file": "skills/getting-started.md",
       "description": "Use on the first conversation after a customer imports this bot, to run the first-meeting flow (60-minute core, then extras).",
-      "sha256": "b0a9315574412bf7edf7758530dc648a002fcaf1737fb7fc2d025ed80d971c92",
-      "chars": 862
+      "sha256": "174657cb768ac11c301273a0bfd84d5fe17b549b877a39843e4cdcc920f0613e",
+      "chars": 897
     },
     {
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
       "description": "Use in every first meeting with a new customer: the 60-minute core, extras, handoff, weekly feedback and never-list.",
-      "sha256": "52b415e5a66969ac08c5618f413f8926b8b9b2d8bbd6f0d1994f5762de148cc6",
-      "chars": 29314
+      "sha256": "cc06c1873ad0f91f0f29d665a2c5d4da790a235677129a1541d210b68b14feee",
+      "chars": 31068
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
-      "description": "כללי-אמון, גרסה 23: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, permits, how permits work).",
-      "sha256": "5d9ac5b9f32eab4ad4e38259772e96a86bcf34f8f2e63139e1ff35f4927e1c15",
-      "chars": 8679
+      "description": "כללי-אמון, גרסה 24: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, permits, how permits work).",
+      "sha256": "5864d14b1373004e19c3726758a1e09fe2551fcd5ba09b1638d8c9073b8c2424",
+      "chars": 9423
     },
     {
       "name": "company-kit",
       "file": "skills/company-kit.md",
-      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template at bundle 23 (גרסה 23) and how bots use it.",
-      "sha256": "86e4a4dbd0c410d388a4c50b9b42c7a77e2b512d21eb35a6159545fc36e825be",
+      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template at bundle 24 (גרסה 24) and how bots use it.",
+      "sha256": "70922049d0549634df014c2c81250ba3a48f64f732877c0d80972a99576be9af",
       "chars": 16339
     }
   ]
