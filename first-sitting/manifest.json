@@ -7,28 +7,28 @@
       "name": "getting-started",
       "file": "skills/getting-started.md",
       "description": "Use on the first conversation after a customer imports this bot, to run the first-meeting flow (60-minute core, then extras).",
-      "sha256": "2fe9bca318f1c14c57917eb00d95fb4b539ed0e6984ba29854bb2f9f9630249b",
+      "sha256": "b0a9315574412bf7edf7758530dc648a002fcaf1737fb7fc2d025ed80d971c92",
       "chars": 862
     },
     {
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
       "description": "Use in every first meeting with a new customer: the 60-minute core, extras, handoff, weekly feedback and never-list.",
-      "sha256": "3c11d5a0b6ae37d54d5bfd323adf8e6f2af1e449556c0c3e9c9b84ccd91bcc91",
-      "chars": 28324
+      "sha256": "52b415e5a66969ac08c5618f413f8926b8b9b2d8bbd6f0d1994f5762de148cc6",
+      "chars": 29314
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
-      "description": "כללי-אמון, גרסה 22: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, permits, how permits work).",
-      "sha256": "9c5d1e3c8276507bacb14360529571519c1a2af923b8fff697c2431dac6106c0",
-      "chars": 8160
+      "description": "כללי-אמון, גרסה 23: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, permits, how permits work).",
+      "sha256": "5d9ac5b9f32eab4ad4e38259772e96a86bcf34f8f2e63139e1ff35f4927e1c15",
+      "chars": 8679
     },
     {
       "name": "company-kit",
       "file": "skills/company-kit.md",
-      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template at bundle 22 (גרסה 22) and how bots use it.",
-      "sha256": "a43254153dea7bf98954196cef65c93a8eb7e95e8e0b8c955f3591cac476e087",
+      "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template at bundle 23 (גרסה 23) and how bots use it.",
+      "sha256": "86e4a4dbd0c410d388a4c50b9b42c7a77e2b512d21eb35a6159545fc36e825be",
       "chars": 16339
     }
   ]
