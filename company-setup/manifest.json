@@ -1,0 +1,35 @@
+{
+  "name": "Company Setup Bot",
+  "description": "Company setup before anyone builds a bot: Team Rules check, admin settings explained, kit section 5, company wiki, and one first task per person.",
+  "gettingStarted": "company-setup-getting-started",
+  "files": [
+    {
+      "name": "kllei-tzevet",
+      "file": "../shared/skills/kllei-tzevet.md",
+      "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
+      "sha256": "6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142",
+      "chars": 2492
+    },
+    {
+      "name": "company-kit-team",
+      "file": "../shared/skills/company-kit-team.md",
+      "description": "Use when a customer bot builds, fills, or reads the company kit (ערכת חברה) on a Team plan: the Hebrew kit template, how bots use it, and the action card template.",
+      "sha256": "8a858bf3d0bfe4144922ed9b35bcdeed05d929201f9fd45c27922ae47a768037",
+      "chars": 17096
+    },
+    {
+      "name": "company-setup",
+      "file": "skills/company-setup.md",
+      "description": "Use in the Company setup session with the business owner: prerequisites, Team Rules check, admin settings, kit sections 1, 5 and 6, company wiki, first tasks, handoff note.",
+      "sha256": "dda3a2b1c782211bc9a89d03870f44998bddc64f28b12882eaa7bdadfb4c6557",
+      "chars": 9957
+    },
+    {
+      "name": "company-setup-getting-started",
+      "file": "skills/company-setup-getting-started.md",
+      "description": "Use on the first conversation after a business imports this bot, to run Company setup.",
+      "sha256": "769770c4eb974adeab1d5f9ab2afef5a99e73ae527e426b6015505b0568e1773",
+      "chars": 653
+    }
+  ]
+}

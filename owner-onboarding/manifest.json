@@ -1,0 +1,35 @@
+{
+  "name": "Owner Onboarding Bot",
+  "description": "The owner's onboarding session after Company setup: one draft-only bot, one real draft, a handoff note, and the monthly support bot installed.",
+  "gettingStarted": "owner-onboarding-getting-started",
+  "files": [
+    {
+      "name": "kllei-tzevet",
+      "file": "../shared/skills/kllei-tzevet.md",
+      "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
+      "sha256": "6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142",
+      "chars": 2492
+    },
+    {
+      "name": "company-kit-team",
+      "file": "../shared/skills/company-kit-team.md",
+      "description": "Use when a customer bot builds, fills, or reads the company kit (ערכת חברה) on a Team plan: the Hebrew kit template, how bots use it, and the action card template.",
+      "sha256": "8a858bf3d0bfe4144922ed9b35bcdeed05d929201f9fd45c27922ae47a768037",
+      "chars": 17096
+    },
+    {
+      "name": "owner-onboarding",
+      "file": "skills/owner-onboarding.md",
+      "description": "Use in the owner's onboarding session: confirm the first task, build one draft-only bot, one real draft, handoff, install monthly support, then extras.",
+      "sha256": "f07f53b1a05ceba06c38fe6bb20d1953af7dd7da7ebc2c1da2bdbed9b0cef413",
+      "chars": 12136
+    },
+    {
+      "name": "owner-onboarding-getting-started",
+      "file": "skills/owner-onboarding-getting-started.md",
+      "description": "Use on the first conversation after the owner imports this bot, to run owner onboarding.",
+      "sha256": "e65134461ba111edef5205c93e856646b088b0decb6b849b3606ee0045836065",
+      "chars": 637
+    }
+  ]
+}

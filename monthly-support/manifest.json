@@ -1,0 +1,28 @@
+{
+  "name": "Monthly Support Bot",
+  "description": "Per-person monthly support: weekly feedback email drafts, stuck-question email to Eran, a health check before each support call, and a guided re-import.",
+  "gettingStarted": "monthly-support-getting-started",
+  "files": [
+    {
+      "name": "kllei-tzevet",
+      "file": "../shared/skills/kllei-tzevet.md",
+      "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
+      "sha256": "6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142",
+      "chars": 2492
+    },
+    {
+      "name": "monthly-support",
+      "file": "skills/monthly-support.md",
+      "description": "Use for this person's monthly support: state file, weekly feedback draft, stuck-question email draft, health check, support-call re-import, three-month question.",
+      "sha256": "678ffb3ad18a409e68ab9522869e9f87e83ea1111b5cfdc44beb4ea1babc61d5",
+      "chars": 6559
+    },
+    {
+      "name": "monthly-support-getting-started",
+      "file": "skills/monthly-support-getting-started.md",
+      "description": "Use on the first conversation after this bot is installed, to set up monthly support.",
+      "sha256": "16bb4be0eac8b092af3ac226a45fd4e59e028d4cac8c0f7714094a2f69b31214",
+      "chars": 455
+    }
+  ]
+}
