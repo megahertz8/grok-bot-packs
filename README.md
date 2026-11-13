@@ -12,11 +12,11 @@ Four bots for a business on a Team plan, used in this order:
 - `owner-onboarding/`: Owner Onboarding Bot skills. One draft-only bot and one real draft for the owner.
 - `staff-onboarding/`: Staff Onboarding Bot skills. The same for each staff member, on their own seat.
 - `monthly-support/`: Monthly Support Bot skills. One copy on each paying person's own account.
-- `shared/skills/`: skills more than one of these bots installs: `kllei-tzevet` (the trust rules; the text owners paste as Team Rules, and the fallback skill where Team Rules are not available) and `company-kit-team` (the company kit).
+- `shared/skills/`: skills more than one bot installs, including Company Wiki Bot: `kllei-tzevet` (the trust rules; the text owners paste as Team Rules, and the fallback skill where Team Rules are not available) and `company-kit-team` (the company kit).
 
 Superseded:
 
-- `first-sitting/`: First Sitting Bot skills. Superseded by the four bots above. Kept unchanged so existing imports keep working; its bootstrap stays pinned to tag v2026.11.13b. Company Wiki Bot's bootstrap also still reads from this folder at that tag.
+- `first-sitting/`: First Sitting Bot skills. Superseded by the four bots above. Kept unchanged so existing imports keep working; its bootstrap stays pinned to tag v2026.11.13b. Company Wiki Bot imports made before tag v2026.11.13d read from this folder at tag v2026.11.13b; from v2026.11.13d on, Company Wiki Bot installs `shared/skills/kllei-tzevet.md` and `shared/skills/company-kit-team.md` instead.
 
 Each pack has a `manifest.json` that lists its files for people, plus one markdown file per skill under `skills/` (shared files are listed with a `../shared/` path).
 
@@ -24,7 +24,9 @@ Each pack has a `manifest.json` that lists its files for people, plus one markdo
 
 Import and bootstrap flows must use the tagged raw URLs, not branch HEAD:
 
-`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.13c/...`
+`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.13d/...`
+
+The four bots above are pinned to v2026.11.13c and Company Wiki Bot to v2026.11.13d. The shared files are byte-identical at both tags.
 
 Tags v2026.11.09b and v2026.11.09c: do not use.
 
@@ -32,12 +34,12 @@ Tags v2026.11.09b and v2026.11.09c: do not use.
 
 The expected sha256 and character count for each file are written in the bootstrap skill that installs it, and repeated in each pack's `manifest.json`. Do not install a skill that fails either check.
 
-## Fingerprints at tag v2026.11.13c
+## Fingerprints (tags v2026.11.13c and v2026.11.13d)
 
 | File | Installed by | sha256 | chars |
 | --- | --- | --- | --- |
-| `shared/skills/kllei-tzevet.md` | company-setup, owner-onboarding, staff-onboarding, monthly-support | `6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142` | 2492 |
-| `shared/skills/company-kit-team.md` | company-setup, owner-onboarding, staff-onboarding | `8a858bf3d0bfe4144922ed9b35bcdeed05d929201f9fd45c27922ae47a768037` | 17096 |
+| `shared/skills/kllei-tzevet.md` | company-setup, owner-onboarding, staff-onboarding, monthly-support, company-wiki | `6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142` | 2492 |
+| `shared/skills/company-kit-team.md` | company-setup, owner-onboarding, staff-onboarding, company-wiki | `8a858bf3d0bfe4144922ed9b35bcdeed05d929201f9fd45c27922ae47a768037` | 17096 |
 | `company-setup/skills/company-setup.md` | company-setup | `dda3a2b1c782211bc9a89d03870f44998bddc64f28b12882eaa7bdadfb4c6557` | 9957 |
 | `company-setup/skills/company-setup-getting-started.md` | company-setup | `769770c4eb974adeab1d5f9ab2afef5a99e73ae527e426b6015505b0568e1773` | 653 |
 | `owner-onboarding/skills/owner-onboarding.md` | owner-onboarding | `f07f53b1a05ceba06c38fe6bb20d1953af7dd7da7ebc2c1da2bdbed9b0cef413` | 12136 |
