@@ -16,7 +16,7 @@ Four bots for a business on a Team plan, used in this order:
 
 Superseded:
 
-- `first-sitting/`: First Sitting Bot skills. Superseded by the four bots above. Kept unchanged so existing imports keep working; its bootstrap stays pinned to tag v2026.11.13b. Company Wiki Bot imports made before tag v2026.11.13d read from this folder at tag v2026.11.13b; from v2026.11.13d on, Company Wiki Bot installs `shared/skills/kllei-tzevet.md` and `shared/skills/company-kit-team.md` instead.
+- `first-sitting/`: First Sitting Bot skills. Superseded by the four bots above. Kept unchanged so existing imports keep working; its bootstrap stays pinned to tag v2026.11.13b. Company Wiki Bot imports made before tag v2026.11.13d read from this folder at tag v2026.11.13b; from v2026.11.13e on (v2026.11.13d is superseded), Company Wiki Bot installs `shared/skills/kllei-tzevet.md` and `shared/skills/company-kit-team.md` instead.
 
 Each pack has a `manifest.json` that lists its files for people, plus one markdown file per skill under `skills/` (shared files are listed with a `../shared/` path).
 
@@ -24,9 +24,9 @@ Each pack has a `manifest.json` that lists its files for people, plus one markdo
 
 Import and bootstrap flows must use the tagged raw URLs, not branch HEAD:
 
-`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.13d/...`
+`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.13e/...`
 
-The four bots above are pinned to v2026.11.13c and Company Wiki Bot to v2026.11.13d. The shared files are byte-identical at both tags.
+The four bots above are pinned to v2026.11.13c and Company Wiki Bot to v2026.11.13e. The shared files are byte-identical at v2026.11.13c, v2026.11.13d and v2026.11.13e.
 
 Tags v2026.11.09b and v2026.11.09c: do not use.
 
@@ -34,7 +34,7 @@ Tags v2026.11.09b and v2026.11.09c: do not use.
 
 The expected sha256 and character count for each file are written in the bootstrap skill that installs it, and repeated in each pack's `manifest.json`. Do not install a skill that fails either check.
 
-## Fingerprints (tags v2026.11.13c and v2026.11.13d)
+## Fingerprints (tags v2026.11.13c to v2026.11.13e)
 
 | File | Installed by | sha256 | chars |
 | --- | --- | --- | --- |
