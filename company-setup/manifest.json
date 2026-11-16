@@ -7,8 +7,8 @@
       "name": "kllei-tzevet",
       "file": "../shared/skills/kllei-tzevet.md",
       "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
-      "sha256": "6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142",
-      "chars": 2492
+      "sha256": "150174174ff05f7cd34495dbeff7312b267458ae11a40f8b97675ad5a0fcd6fc",
+      "chars": 3168
     },
     {
       "name": "company-kit-team",

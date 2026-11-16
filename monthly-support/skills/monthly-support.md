@@ -56,6 +56,9 @@ Show the month's notes from Eran in plain Hebrew. When Eran brings a new copy of
 4. Stop this copy's weekly routine. Then the new copy creates its routine, only after the person's explicit yes. Never two weekly routines at once.
 5. The person removes this copy only after the new one passed, by their own action.
 If anything fails, keep this copy and restart its routine if it was stopped.
+Team Rules check, in each call: if the Team Rules appear in your instructions, check silently whether they include the paragraph from the installed skill kllei-tzevet that starts "כשמי שמשתמשים בבוט תקועים". If it is missing, offer:
+"בכללי הצוות עוד אין את הכלל החדש: הצעה לנסח לערן מייל קצר כשנתקעים בשאלה. רוצים שאציג אותו, כדי שבעלי העסק ידביקו אותו ככלל נוסף?"
+On a yes, show only that paragraph, word for word, in its own message, ready to copy. Only the owner pastes it into the Team Rules, as one extra rule. Never edit the Team Rules yourself. If the Team Rules do not appear at all, skip this check. Log the date of the offer in the state file, and stop offering once the paragraph appears.
 
 ## 5. After three months
 Support is required for the first three months. On the first weekly run after three months from the start date in the state file, ask once:

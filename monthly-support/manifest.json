@@ -7,15 +7,15 @@
       "name": "kllei-tzevet",
       "file": "../shared/skills/kllei-tzevet.md",
       "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
-      "sha256": "6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142",
-      "chars": 2492
+      "sha256": "150174174ff05f7cd34495dbeff7312b267458ae11a40f8b97675ad5a0fcd6fc",
+      "chars": 3168
     },
     {
       "name": "monthly-support",
       "file": "skills/monthly-support.md",
       "description": "Use for this person's monthly support: state file, weekly feedback draft, stuck-question email draft, health check, support-call re-import, three-month question.",
-      "sha256": "678ffb3ad18a409e68ab9522869e9f87e83ea1111b5cfdc44beb4ea1babc61d5",
-      "chars": 6559
+      "sha256": "1b8e287506fbe92e42347bbcf14e00952607ffc591129eaecda4ebf078dcd33f",
+      "chars": 7259
     },
     {
       "name": "monthly-support-getting-started",

@@ -24,9 +24,9 @@ Each pack has a `manifest.json` that lists its files for people, plus one markdo
 
 Import and bootstrap flows must use the tagged raw URLs, not branch HEAD:
 
-`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.13e/...`
+`https://raw.githubusercontent.com/megahertz8/grok-bot-packs/v2026.11.16/...`
 
-The four bots above are pinned to v2026.11.13c and Company Wiki Bot to v2026.11.13e. The shared files are byte-identical at v2026.11.13c, v2026.11.13d and v2026.11.13e.
+The four bots above and Company Wiki Bot are pinned to v2026.11.16. From v2026.11.16 on, `shared/skills/kllei-tzevet.md` has one more Team Rules paragraph (the stuck-question email to Eran) and `monthly-support/skills/monthly-support.md` offers that paragraph in the support call; every other file is byte-identical to v2026.11.13e. Earlier tags stay as rollback.
 
 Tags v2026.11.09b and v2026.11.09c: do not use.
 
@@ -34,11 +34,11 @@ Tags v2026.11.09b and v2026.11.09c: do not use.
 
 The expected sha256 and character count for each file are written in the bootstrap skill that installs it, and repeated in each pack's `manifest.json`. Do not install a skill that fails either check.
 
-## Fingerprints (tags v2026.11.13c to v2026.11.13e)
+## Fingerprints (tag v2026.11.16)
 
 | File | Installed by | sha256 | chars |
 | --- | --- | --- | --- |
-| `shared/skills/kllei-tzevet.md` | company-setup, owner-onboarding, staff-onboarding, monthly-support, company-wiki | `6689757cced44e6b05a69a810c21b3b8544a150de482d246f73976ff12376142` | 2492 |
+| `shared/skills/kllei-tzevet.md` | company-setup, owner-onboarding, staff-onboarding, monthly-support, company-wiki | `150174174ff05f7cd34495dbeff7312b267458ae11a40f8b97675ad5a0fcd6fc` | 3168 |
 | `shared/skills/company-kit-team.md` | company-setup, owner-onboarding, staff-onboarding, company-wiki | `8a858bf3d0bfe4144922ed9b35bcdeed05d929201f9fd45c27922ae47a768037` | 17096 |
 | `company-setup/skills/company-setup.md` | company-setup | `dda3a2b1c782211bc9a89d03870f44998bddc64f28b12882eaa7bdadfb4c6557` | 9957 |
 | `company-setup/skills/company-setup-getting-started.md` | company-setup | `769770c4eb974adeab1d5f9ab2afef5a99e73ae527e426b6015505b0568e1773` | 653 |
@@ -46,5 +46,5 @@ The expected sha256 and character count for each file are written in the bootstr
 | `owner-onboarding/skills/owner-onboarding-getting-started.md` | owner-onboarding | `e65134461ba111edef5205c93e856646b088b0decb6b849b3606ee0045836065` | 637 |
 | `staff-onboarding/skills/staff-onboarding.md` | staff-onboarding | `0eaf011ed2576c9fe76639935b7b57a2bea8072fa5266133249fa8a33b2913ac` | 8340 |
 | `staff-onboarding/skills/staff-onboarding-getting-started.md` | staff-onboarding | `1e5f92df8da9403d531e65bb9d99641f355c5813ac1a31959b44219e1732fc1f` | 646 |
-| `monthly-support/skills/monthly-support.md` | monthly-support | `678ffb3ad18a409e68ab9522869e9f87e83ea1111b5cfdc44beb4ea1babc61d5` | 6559 |
+| `monthly-support/skills/monthly-support.md` | monthly-support | `1b8e287506fbe92e42347bbcf14e00952607ffc591129eaecda4ebf078dcd33f` | 7259 |
 | `monthly-support/skills/monthly-support-getting-started.md` | monthly-support | `16bb4be0eac8b092af3ac226a45fd4e59e028d4cac8c0f7714094a2f69b31214` | 455 |
