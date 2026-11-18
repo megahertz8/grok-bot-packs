@@ -14,22 +14,22 @@
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
       "description": "Use in every first meeting with a new customer: the 60-minute core, extras, handoff, weekly feedback and never-list.",
-      "sha256": "2a8c2e1d4216014b08aae0ec9943374ff8cb7dfb9a60d3b52cb2637bd82f050f",
-      "chars": 35291
+      "sha256": "bc09ed08acad48ff07a0919b4988ddc4dec853f17ab4e0eb27fdab56458c1ba9",
+      "chars": 35706
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
       "description": "כללי-אמון, גרסה 26: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, permits, how permits work).",
-      "sha256": "e66954f54ea9026655e9946ad8eb60add988f5654a012e961365232e612174a8",
-      "chars": 8944
+      "sha256": "cbef9ddf849e039065cca9cbbc0a49c7612094c5dbd869d4df776cb365923429",
+      "chars": 9320
     },
     {
       "name": "company-kit",
       "file": "skills/company-kit.md",
       "description": "Use when a First Sitting or any customer bot builds, fills, or reads a customer's company kit (ערכת חברה): the Hebrew template at bundle 26 (גרסה 26) and how bots use it.",
-      "sha256": "e4ee3b0419a0cc3aeab4e2c69261b0e825afad2d480b6b990d8c61c2fc96eaec",
-      "chars": 17062
+      "sha256": "5b3296002d7b945a8904ef174f4f61970a93e3a24cb975913003d168c82dc31e",
+      "chars": 17893
     }
   ]
 }

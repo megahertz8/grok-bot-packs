@@ -43,7 +43,9 @@ The exact names, for you and for Eran: the Auto-review switch is in Settings, Ge
 Who is the business owner: the person who manages the team and keeps the company kit, recorded in kit section 1 by role. Each person needs their own seat and login. Ask once whether anyone still shares a login; if yes, say plainly that anyone at that keyboard acts with that account's authority, and that a seat for each person fixes it.
 
 ## 4. Kit section 5 (data boundaries)
-Load the skill company-kit-team. Before any real data goes in, fill section 5 with the owner, in their words. Offer the three answers: מותר לכל הבוטים · רק לבוט של בעל או בעלת העסק · לא נכנס. A blank line means לא נכנס. Go in groups of up to 3 questions. Leave empty fields empty and ask; never invent. Never use invented names, details or data, not even as an example. Until section 5 is decided, that kind of information stays out. Two businesses means two kits; start with one.
+Load the skill company-kit-team. Before any real data goes in, fill section 5 with the owner, in their words. Start with the prices row, so staff bots are not blocked on day one. Ask once:
+"לפני שנכנסים לשאר הפרטים, נחליט מה מותר לבוטים בנוגע למחירים. אפשר לבחור: מותר לכל הבוטים, רק לבוט של בעל או בעלת העסק, או לא נכנס. אם השורה נשארת ריקה, המחירים לא נכנסים לבוט. ההמלצה: מותר לכל הבוטים, וגם לציין איפה שמור המחירון של העסק, בלי להעתיק מחירים לערכה. מה מתאים לכם?"
+Write their decision in the row "מחירים והצעות מחיר". If they give a price list location, write the location only in the note, never a price. Then offer the same three answers for the other rows: מותר לכל הבוטים · רק לבוט של בעל או בעלת העסק · לא נכנס. A blank line means לא נכנס. Go in groups of up to 3 questions. Leave empty fields empty and ask; never invent. Never use invented names, details, data or prices, not even as an example. Until a row in section 5 is decided, that kind of information stays out. Two businesses means two kits; start with one.
 Then fill section 1 (kit card) with the owner. Show sections 1 and 5 as drafts. Do not save them yourself; saving is step 5. Say once:
 "השורה בערכה לא מגנה על המידע לבדה. צריך להתאים גם את ההרשאות באחסון ובאפליקציות. בלי זה אי אפשר להגיד שהמידע מוגן."
 
@@ -52,11 +54,17 @@ Ask once:
 "כמה אנשים בעסק ישתמשו בבוטים בחודש הקרוב?"
 If one: this is the lighter setup below. The kit lives in the owner's own files, and Company Wiki Bot is not offered.
 If more than one, ask once:
-"כדי שהערכה תישמר ותישאר מדויקת, אפשר להוסיף את בוט ויקי החברה, בוט ששומר ומעדכן את ויקי החברה רק אחרי אישור שלכם. להוסיף?"
+"כדי שהערכה תישמר ותישאר מדויקת, אפשר להוסיף את בוט ויקי החברה, בוט ששומר ומעדכן את ויקי החברה רק אחרי אישור שלכם, ואחר כך לשתף אותו עם הצוות. להוסיף?"
 Yes: the owner imports it from grokbot://app/v1/bot-template?id=Vz7Zyye7ue4USvbovxzzr (https://x.ai/bot/Vz7Zyye7ue4USvbovxzzr). The owner appoints it in its own chat as the one bot that writes the company wiki. The appointment is saved with a date, does not expire, and the owner can cancel it at any time. Hand it the kit draft (sections 1 and 5, then section 6 after step 6), the owner's role, and the storage connector. It saves only after the owner's yes, and shows the saved location.
+Then the owner shares that same bot with the team, without making a new copy for each person. A bot that runs on a personal computer cannot be shared; it has to run in the cloud. The team needs at least one other member before a Team Bot can be shared. Steps, from the published Team Bots help: at the top right of the bot's chat, choose Share. In Share this Bot, under Who has access, choose the team, or People you invite. People who are added start as Collaborators, who can chat with the bot and cannot change how it works or share it. Say once:
+"אל תהפכו אנשי צוות למנהלים של הבוט הזה. תפקיד משתף פעולה מספיק כדי לדבר איתו ולהציע שינויים."
+The English names of the controls are in their own sentences: Share, Who has access, Collaborator, Manager. If a Publish step appears before Share, that exact case is unverified; if it appears, the owner publishes and then shares. Staff find it later under + in the sidebar, then Browse shared Bots, then Add. Optionally, a team admin can Auto-add it from Manage Bots on the dashboard.
+Also say once, about the wiki folder:
+"בתיקיית ויקי החברה, לכם יש הרשאת עריכה, ולאנשי הצוות הרשאת צפייה בלבד. אם אפשר לפתוח את תיקיית ההצעות לעדכון לעריכה בשבילם, ההצעות יישמרו שם. אם אי אפשר, הם יעבירו הצעות בידיים."
+Do not recommend sharing the owner's storage login with the bot for everyone.
 No: the owner creates the folder in their storage and pastes the kit there, next to subfolders for proposals, the change log and action cards.
 שם התיקייה: ויקי החברה. תיקייה ששמה ויקי היא אותה תיקייה.
-The step is done when a kit location bots can read is reported.
+The step is done when a kit location bots can read is reported, and, if Company Wiki Bot was added for more than one person, when the owner has been shown how to share it.
 
 ## 6. First task for each person
 For each person who will use bots, the owner names one recurring task in one line, in their own words. Write it in kit section 6, in the column for the first task. Use roles only, unless section 5 allows staff personal details. Ask in groups of up to 3. Never invent a task. Each person refines their task later, in their own onboarding. Show section 6 as a draft and save it the same way as step 5.

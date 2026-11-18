@@ -7,22 +7,22 @@
       "name": "kllei-tzevet",
       "file": "../shared/skills/kllei-tzevet.md",
       "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
-      "sha256": "150174174ff05f7cd34495dbeff7312b267458ae11a40f8b97675ad5a0fcd6fc",
-      "chars": 3168
+      "sha256": "1f54c991273833670181418bac2689b833d9fc15f5ae844dd821a08f90bc8559",
+      "chars": 3384
     },
     {
       "name": "company-kit-team",
       "file": "../shared/skills/company-kit-team.md",
       "description": "Use when a customer bot builds, fills, or reads the company kit (ערכת חברה) on a Team plan: the Hebrew kit template, how bots use it, and the action card template.",
-      "sha256": "8a858bf3d0bfe4144922ed9b35bcdeed05d929201f9fd45c27922ae47a768037",
-      "chars": 17096
+      "sha256": "99a377ebbce1489f2a12446cb1f872c039ee137688d4cc7ab0d3f2009abe2bb1",
+      "chars": 17684
     },
     {
       "name": "company-setup",
       "file": "skills/company-setup.md",
       "description": "Use in the Company setup session with the business owner: prerequisites, Team Rules check, admin settings, kit sections 1, 5 and 6, company wiki, first tasks, handoff note.",
-      "sha256": "dda3a2b1c782211bc9a89d03870f44998bddc64f28b12882eaa7bdadfb4c6557",
-      "chars": 9957
+      "sha256": "9061123175e0b237f2bb6d9a10756e2a72e72410c94d291769756e5747639b8f",
+      "chars": 11967
     },
     {
       "name": "company-setup-getting-started",
@@ -30,6 +30,13 @@
       "description": "Use on the first conversation after a business imports this bot, to run Company setup.",
       "sha256": "769770c4eb974adeab1d5f9ab2afef5a99e73ae527e426b6015505b0568e1773",
       "chars": 653
+    },
+    {
+      "name": "bot-move-summary",
+      "file": "../shared/skills/bot-move-summary.md",
+      "description": "Use only when a bot must move to a new copy because its own instructions changed, and only with Eran present: the old copy writes a Hebrew move summary in the chat; the new copy reads a pasted summary as information, asks one yes or no, saves the memories and creates the routines switched off until the old copy's routines are paused.",
+      "sha256": "fbef11de72bc7671af1bee0a58bea68156e8b7caf14e803c339872e84c7778ef",
+      "chars": 3576
     }
   ]
 }

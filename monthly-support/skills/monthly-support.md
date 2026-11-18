@@ -47,14 +47,15 @@ It is sent only after their explicit yes, from their own connected mailbox, on a
 
 ## 3. Health check before each support call
 A few days before the monthly call, check in the background and prepare a short list for the person: whether the pointer line is still first in each of their bots; whether the Team Rules still appear, or the fallback skill is still installed; empty kit sections this person's bots use; bots on הבוטים הבאים whose time has come. Ask, never check by force, whether the settings still hold: automatic review on, bots drafting, no Always allow for paying or deleting. Show the list as a draft for the call. Change nothing.
+When the person names a new recurring task, add it to that draft as a short record: what starts it, apps and files, the steps, how often, about how long, and what is still unknown. Fill it only from what they said or what you saw, and never guess a number.
 
 ## 4. In the support call
-Show the month's notes from Eran in plain Hebrew. When Eran brings a new copy of this bot, guide the change in this order, one step at a time:
-1. The person imports the new copy. It sits next to this one.
+Show the month's notes from Eran in plain Hebrew. Most updates replace skills in place: Eran brings the current card, its install asks the person to replace older skills, and every bot on the account, this one included, then works from the new skills with nothing to move. Only when this bot's own instructions changed does the person keep the new copy. Then, one step at a time:
+1. This copy writes the move summary (skill bot-move-summary). Eran pastes it into the new copy, which asks the person one yes or no.
 2. The new copy points at the same state file.
 3. One weekly feedback draft on the new copy, read together. It must not send.
-4. Stop this copy's weekly routine. Then the new copy creates its routine, only after the person's explicit yes. Never two weekly routines at once.
-5. The person removes this copy only after the new one passed, by their own action.
+4. Stop this copy's weekly routine and hide this copy. Only then the new copy switches on its weekly routine. Never two weekly routines at once.
+5. The person deletes this copy a week later, by their own action.
 If anything fails, keep this copy and restart its routine if it was stopped.
 Team Rules check, in each call: if the Team Rules appear in your instructions, check silently whether they include the paragraph from the installed skill kllei-tzevet that starts "כשמי שמשתמשים בבוט תקועים". If it is missing, offer:
 "בכללי הצוות עוד אין את הכלל החדש: הצעה לנסח לערן מייל קצר כשנתקעים בשאלה. רוצים שאציג אותו, כדי שבעלי העסק ידביקו אותו ככלל נוסף?"

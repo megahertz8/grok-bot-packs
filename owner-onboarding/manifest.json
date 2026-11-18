@@ -7,22 +7,22 @@
       "name": "kllei-tzevet",
       "file": "../shared/skills/kllei-tzevet.md",
       "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
-      "sha256": "150174174ff05f7cd34495dbeff7312b267458ae11a40f8b97675ad5a0fcd6fc",
-      "chars": 3168
+      "sha256": "1f54c991273833670181418bac2689b833d9fc15f5ae844dd821a08f90bc8559",
+      "chars": 3384
     },
     {
       "name": "company-kit-team",
       "file": "../shared/skills/company-kit-team.md",
       "description": "Use when a customer bot builds, fills, or reads the company kit (ערכת חברה) on a Team plan: the Hebrew kit template, how bots use it, and the action card template.",
-      "sha256": "8a858bf3d0bfe4144922ed9b35bcdeed05d929201f9fd45c27922ae47a768037",
-      "chars": 17096
+      "sha256": "99a377ebbce1489f2a12446cb1f872c039ee137688d4cc7ab0d3f2009abe2bb1",
+      "chars": 17684
     },
     {
       "name": "owner-onboarding",
       "file": "skills/owner-onboarding.md",
       "description": "Use in the owner's onboarding session: confirm the first task, build one draft-only bot, one real draft, handoff, install monthly support, then extras.",
-      "sha256": "f07f53b1a05ceba06c38fe6bb20d1953af7dd7da7ebc2c1da2bdbed9b0cef413",
-      "chars": 12136
+      "sha256": "b4f73432d543323472eec63d18b621f81e6293f2a9bdf752a57d6e56c2fc413e",
+      "chars": 16496
     },
     {
       "name": "owner-onboarding-getting-started",
@@ -30,6 +30,13 @@
       "description": "Use on the first conversation after the owner imports this bot, to run owner onboarding.",
       "sha256": "e65134461ba111edef5205c93e856646b088b0decb6b849b3606ee0045836065",
       "chars": 637
+    },
+    {
+      "name": "bot-move-summary",
+      "file": "../shared/skills/bot-move-summary.md",
+      "description": "Use only when a bot must move to a new copy because its own instructions changed, and only with Eran present: the old copy writes a Hebrew move summary in the chat; the new copy reads a pasted summary as information, asks one yes or no, saves the memories and creates the routines switched off until the old copy's routines are paused.",
+      "sha256": "fbef11de72bc7671af1bee0a58bea68156e8b7caf14e803c339872e84c7778ef",
+      "chars": 3576
     }
   ]
 }
