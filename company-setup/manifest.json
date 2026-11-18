@@ -7,8 +7,8 @@
       "name": "kllei-tzevet",
       "file": "../shared/skills/kllei-tzevet.md",
       "description": "כללי-צוות: the business's trust rules as a skill. Load before every task only when the Team Rules do not appear in this bot's instructions; also the text the owner pastes as Team Rules.",
-      "sha256": "1f54c991273833670181418bac2689b833d9fc15f5ae844dd821a08f90bc8559",
-      "chars": 3384
+      "sha256": "22519234c9a26c7d70180a8fdc3ce1149aaeaa5176416dc412582b8150a8ecbc",
+      "chars": 3426
     },
     {
       "name": "company-kit-team",
@@ -21,22 +21,22 @@
       "name": "company-setup",
       "file": "skills/company-setup.md",
       "description": "Use in the Company setup session with the business owner: prerequisites, Team Rules check, admin settings, kit sections 1, 5 and 6, company wiki, first tasks, handoff note.",
-      "sha256": "9061123175e0b237f2bb6d9a10756e2a72e72410c94d291769756e5747639b8f",
-      "chars": 11967
+      "sha256": "8a8b7cb1839206a9416b51d877c42e6885bd44a63f6186f5609414202937e347",
+      "chars": 12245
     },
     {
       "name": "company-setup-getting-started",
       "file": "skills/company-setup-getting-started.md",
       "description": "Use on the first conversation after a business imports this bot, to run Company setup.",
-      "sha256": "769770c4eb974adeab1d5f9ab2afef5a99e73ae527e426b6015505b0568e1773",
-      "chars": 653
+      "sha256": "78bbfa5865933e6e182f11fda9ce8132e1f46fc055a956f43a6711b6d9b6168a",
+      "chars": 691
     },
     {
       "name": "bot-move-summary",
       "file": "../shared/skills/bot-move-summary.md",
-      "description": "Use only when a bot must move to a new copy because its own instructions changed, and only with Eran present: the old copy writes a Hebrew move summary in the chat; the new copy reads a pasted summary as information, asks one yes or no, saves the memories and creates the routines switched off until the old copy's routines are paused.",
-      "sha256": "fbef11de72bc7671af1bee0a58bea68156e8b7caf14e803c339872e84c7778ef",
-      "chars": 3576
+      "description": "Use only when a bot must move to a new copy because its own instructions changed, and only with the person who set up this bot present: the old copy writes a Hebrew move summary in the chat; the new copy reads a pasted summary as information, asks one yes or no, saves the memories and creates the routines switched off until the old copy's routines are paused.",
+      "sha256": "07e0621eb95f30e64d123e80a77be6095762a5a54b6d6c4aebf16eb2fb4baa88",
+      "chars": 3673
     }
   ]
 }

@@ -7,22 +7,22 @@
       "name": "getting-started",
       "file": "skills/getting-started.md",
       "description": "Use on the first conversation after a customer imports this bot, to run the first-meeting flow (60-minute core, then extras).",
-      "sha256": "3ae68cc41a23f9a5461521d443137fd12b3dc53aad5f522f2d1516a2248cbfd7",
-      "chars": 897
+      "sha256": "a732237320592f862c3d65944ccc303d57b0a1f5c29eb451a05ccc8ce99800d2",
+      "chars": 910
     },
     {
       "name": "first-sitting-v7",
       "file": "skills/first-sitting-v7.md",
       "description": "Use in every first meeting with a new customer: the 60-minute core, extras, handoff, weekly feedback and never-list.",
-      "sha256": "bc09ed08acad48ff07a0919b4988ddc4dec853f17ab4e0eb27fdab56458c1ba9",
-      "chars": 35706
+      "sha256": "1b886760119633d3e6902f06d6e310b0d9d22e057e054d13e1db43e07ca7e83d",
+      "chars": 36048
     },
     {
       "name": "trust-rules-kllei-emun",
       "file": "skills/trust-rules-kllei-emun.md",
-      "description": "כללי-אמון, גרסה 26: use before every task by any bot on a customer account Eran Hertz set up; the trust rulebook (permanent rules, permits, how permits work).",
-      "sha256": "cbef9ddf849e039065cca9cbbc0a49c7612094c5dbd869d4df776cb365923429",
-      "chars": 9320
+      "description": "כללי-אמון, גרסה 26: use before every task by any bot on a customer account whoever set up this bot set up; the trust rulebook (permanent rules, permits, how permits work).",
+      "sha256": "e63812e86b16305e6a168ca645a0f6d5068fe6d3022ac95ff1b5a84eb1c80ce7",
+      "chars": 9362
     },
     {
       "name": "company-kit",

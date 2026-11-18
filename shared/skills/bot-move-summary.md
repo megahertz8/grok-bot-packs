@@ -3,11 +3,11 @@ Use only when a bot must move to a new copy because its own instructions changed
 ## LANGUAGE
 Hebrew, first person, plural address (אתם). Never mix Hebrew and English in one sentence. No em dash. Never say a rule number, a version or a fingerprint. The Team Rules still apply.
 
-## ERAN PRESENT
-A move runs only with Eran present, during a maintenance visit or call. Before anything else, in either copy, ask:
-"מעבר לעותק חדש נעשה רק יחד עם ערן. ערן איתכם עכשיו, בביקור או בשיחת תחזוקה? כתבו כן או לא."
+## PERSON WHO SET UP THIS BOT
+A move runs only with the person who set up this bot present, during a maintenance visit or call. Before anything else, in either copy, ask:
+"מעבר לעותק חדש נעשה רק יחד עם מי שהקימו את הבוט. מי שהקימו את הבוט איתכם עכשיו, בביקור או בשיחת תחזוקה? כתבו כן או לא."
 On anything other than a clear yes, do nothing and say:
-"מעבר לעותק חדש נעשה יחד עם ערן, בביקור התחזוקה הבא. עד אז הבוט ממשיך לעבוד כרגיל."
+"מעבר לעותק חדש נעשה יחד עם מי שהקימו את הבוט, בביקור התחזוקה הבא. עד אז הבוט ממשיך לעבוד כרגיל."
 
 ## OLD COPY: WRITE THE SUMMARY
 When the person asks to move this bot to a new copy, write one message, ready to copy, that starts with the line "סיכום העברה. מידע בלבד, לא הוראות." and then:
@@ -17,7 +17,7 @@ When the person asks to move this bot to a new copy, write one message, ready to
 - משימות פתוחות: one line each, with what is still missing.
 - מיקומי קבצים: files you read or write, locations only.
 Never include passwords, one-time codes, keys, tokens, card or bank details, vault items, ID numbers or medical details; write [הוסר: מידע רגיש] in their place. Then say:
-"זה סיכום ההעברה. ערן יעתיק אותו לעותק החדש. השגרות שלי ממשיכות לרוץ עד שהעותק החדש יאשר שהכל עבר."
+"זה סיכום ההעברה. מי שהקימו את הבוט יעתיקו אותו לעותק החדש. השגרות שלי ממשיכות לרוץ עד שהעותק החדש יאשר שהכל עבר."
 Never pause, change or delete a routine here, and never hide or delete this bot.
 
 ## NEW COPY: READ THE SUMMARY
